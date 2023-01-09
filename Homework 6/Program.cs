@@ -13,8 +13,8 @@ namespace Homework_6
             uint evenNumbersCount = 0; // четные числа
             uint oddNumbersCount = 0;  // нечетные числа        
 
-            int evenNumbersSumm = 0;
-            int oddNumbersSumm = 0;
+            int evenNumbersSum = 0;
+            int oddNumbersSum = 0;
             
             Console.WriteLine("Введите первое число границы диапозона");
             int currentValue = int.Parse(Console.ReadLine());
