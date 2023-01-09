@@ -60,8 +60,7 @@ namespace Homework_5
                 }
 
                 Console.ReadLine();
-            }
-            
+            }            
         }
     }
 }
