@@ -26,12 +26,12 @@ namespace Homework_6
             {
                 if (currentValue % 2 == 0)
                 {
-                    evenNumbersSumm += currentValue;
+                    evenNumbersSum += currentValue;
                     evenNumbersCount++;
                 }
                 else
                 {
-                    oddNumbersSumm += currentValue;
+                    oddNumbersSum += currentValue;
                     oddNumbersCount++;
                 }
                 currentValue++;
@@ -39,8 +39,8 @@ namespace Homework_6
             
             Console.WriteLine("Количество четных чисел: " + evenNumbersCount);
             Console.WriteLine("Количество нечетных чисел: " + oddNumbersCount);
-            Console.WriteLine("Сумма четных чисел: " + evenNumbersSumm);
-            Console.WriteLine("Сумма нечетных чисел: " + oddNumbersSumm);
+            Console.WriteLine("Сумма четных чисел: " + evenNumbersSum);
+            Console.WriteLine("Сумма нечетных чисел: " + oddNumbersSum);
             Console.ReadLine();
 
         }
